@@ -13,9 +13,9 @@ from pydub import AudioSegment
 from pydub.silence import split_on_silence
 
 # assign files
-input_file = "17133_56_09_20_2022_15_08_52_304.mp3"
-output_file = "result.wav"
-path="result.wav"
+input_file = "**********.mp3"
+output_file = "output.wav"
+path="output.wav"
 # convert mp3 file to wav file
 audio = AudioSegment.from_mp3(input_file)
 audio.export(output_file, format="wav")
